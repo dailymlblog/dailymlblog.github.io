@@ -1,0 +1,3375 @@
+<head>
+  <link rel="shortcut icon" href="../assets/logo/logo_172x166.png" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="" />
+  <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+  <title>Atharva's daily ML blog</title>
+  <meta
+    name="description"
+    content="Free flat design WordPress theme developed using Bootstrap 3 and is well suited for blogs, portfolio, design, photography and other creative websites"
+  />
+  <meta
+    name="robots"
+    content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+  />
+  <link rel="canonical" href="https://demo.colorlib.com/sparkling/" />
+  <link rel="next" href="https://demo.colorlib.com/sparkling/page/2/" />
+  <script type="application/ld+json" class="yoast-schema-graph">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://demo.colorlib.com/sparkling/#website",
+          "url": "https://demo.colorlib.com/sparkling/",
+          "name": "Sparkling",
+          "description": "Free flat design WordPress theme developed using Bootstrap 3 and is well suited for blogs, portfolio, design, photography and other creative websites",
+          "potentialAction": [
+            {
+              "@type": "SearchAction",
+              "target": "https://demo.colorlib.com/sparkling/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          ],
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "CollectionPage",
+          "@id": "https://demo.colorlib.com/sparkling/#webpage",
+          "url": "https://demo.colorlib.com/sparkling/",
+          "name": "Sparkling - Free flat design WordPress theme developed using Bootstrap 3 and is well suited for blogs, portfolio, design, photography and other creative websites",
+          "isPartOf": { "@id": "https://demo.colorlib.com/sparkling/#website" },
+          "description": "Free flat design WordPress theme developed using Bootstrap 3 and is well suited for blogs, portfolio, design, photography and other creative websites",
+          "inLanguage": "en-US",
+          "potentialAction": [
+            {
+              "@type": "ReadAction",
+              "target": ["https://demo.colorlib.com/sparkling/"]
+            }
+          ]
+        }
+      ]
+    }
+  </script>
+
+  <link rel="dns-prefetch" href="//secure.gravatar.com" />
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//s.w.org" />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Sparkling » Feed"
+    href="https://demo.colorlib.com/sparkling/feed/"
+  />
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="Sparkling » Comments Feed"
+    href="https://demo.colorlib.com/sparkling/comments/feed/"
+  />
+
+  <script type="text/javascript" data-cfasync="false">
+    var mi_version = "7.12.2";
+    var mi_track_user = true;
+    var mi_no_track_reason = "";
+
+    var disableStr = "ga-disable-UA-23581568-13";
+
+    /* Function to detect opted out users */
+    function __gaTrackerIsOptedOut() {
+      return document.cookie.indexOf(disableStr + "=true") > -1;
+    }
+
+    /* Disable tracking if the opt-out cookie exists. */
+    if (__gaTrackerIsOptedOut()) {
+      window[disableStr] = true;
+    }
+
+    /* Opt-out function */
+    function __gaTrackerOptout() {
+      document.cookie =
+        disableStr + "=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/";
+      window[disableStr] = true;
+    }
+
+    if ("undefined" === typeof gaOptout) {
+      function gaOptout() {
+        __gaTrackerOptout();
+      }
+    }
+
+    if (mi_track_user) {
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "__gaTracker"
+      );
+
+      window.ga = __gaTracker;
+      __gaTracker("create", "UA-23581568-13", "auto", { useAmpClientId: true });
+      __gaTracker("set", "forceSSL", true);
+      __gaTracker("set", "anonymizeIp", true);
+      __gaTracker("set", "displayFeaturesTask", null);
+      __gaTracker("send", "pageview");
+      __gaTracker(function () {
+        window.ga = __gaTracker;
+      });
+    } else {
+      console.log("");
+      (function () {
+        /* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+        var noopfn = function () {
+          return null;
+        };
+        var noopnullfn = function () {
+          return null;
+        };
+        var Tracker = function () {
+          return null;
+        };
+        var p = Tracker.prototype;
+        p.get = noopfn;
+        p.set = noopfn;
+        p.send = noopfn;
+        var __gaTracker = function () {
+          var len = arguments.length;
+          if (len === 0) {
+            return;
+          }
+          var f = arguments[len - 1];
+          if (
+            typeof f !== "object" ||
+            f === null ||
+            typeof f.hitCallback !== "function"
+          ) {
+            console.log(
+              "Not running function __gaTracker(" +
+                arguments[0] +
+                " ....) because you are not being tracked. " +
+                mi_no_track_reason
+            );
+            return;
+          }
+          try {
+            f.hitCallback();
+          } catch (ex) {}
+        };
+        __gaTracker.create = function () {
+          return new Tracker();
+        };
+        __gaTracker.getByName = noopnullfn;
+        __gaTracker.getAll = function () {
+          return [];
+        };
+        __gaTracker.remove = noopfn;
+        window["__gaTracker"] = __gaTracker;
+        window.ga = __gaTracker;
+      })();
+    }
+  </script>
+
+  <script type="text/javascript">
+    window._wpemojiSettings = {
+      baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+      ext: ".png",
+      svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+      svgExt: ".svg",
+      source: {
+        concatemoji:
+          "https:\/\/demo.colorlib.com\/sparkling\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6",
+      },
+    };
+    !(function (e, a, t) {
+      var r,
+        n,
+        o,
+        i,
+        p = a.createElement("canvas"),
+        s = p.getContext && p.getContext("2d");
+      function c(e, t) {
+        var a = String.fromCharCode;
+        s.clearRect(0, 0, p.width, p.height),
+          s.fillText(a.apply(this, e), 0, 0);
+        var r = p.toDataURL();
+        return (
+          s.clearRect(0, 0, p.width, p.height),
+          s.fillText(a.apply(this, t), 0, 0),
+          r === p.toDataURL()
+        );
+      }
+      function l(e) {
+        if (!s || !s.fillText) return !1;
+        switch (((s.textBaseline = "top"), (s.font = "600 32px Arial"), e)) {
+          case "flag":
+            return (
+              !c(
+                [127987, 65039, 8205, 9895, 65039],
+                [127987, 65039, 8203, 9895, 65039]
+              ) &&
+              !c(
+                [55356, 56826, 55356, 56819],
+                [55356, 56826, 8203, 55356, 56819]
+              ) &&
+              !c(
+                [
+                  55356,
+                  57332,
+                  56128,
+                  56423,
+                  56128,
+                  56418,
+                  56128,
+                  56421,
+                  56128,
+                  56430,
+                  56128,
+                  56423,
+                  56128,
+                  56447,
+                ],
+                [
+                  55356,
+                  57332,
+                  8203,
+                  56128,
+                  56423,
+                  8203,
+                  56128,
+                  56418,
+                  8203,
+                  56128,
+                  56421,
+                  8203,
+                  56128,
+                  56430,
+                  8203,
+                  56128,
+                  56423,
+                  8203,
+                  56128,
+                  56447,
+                ]
+              )
+            );
+          case "emoji":
+            return !c(
+              [55357, 56424, 8205, 55356, 57212],
+              [55357, 56424, 8203, 55356, 57212]
+            );
+        }
+        return !1;
+      }
+      function d(e) {
+        var t = a.createElement("script");
+        (t.src = e),
+          (t.defer = t.type = "text/javascript"),
+          a.getElementsByTagName("head")[0].appendChild(t);
+      }
+      for (
+        i = Array("flag", "emoji"),
+          t.supports = { everything: !0, everythingExceptFlag: !0 },
+          o = 0;
+        o < i.length;
+        o++
+      )
+        (t.supports[i[o]] = l(i[o])),
+          (t.supports.everything = t.supports.everything && t.supports[i[o]]),
+          "flag" !== i[o] &&
+            (t.supports.everythingExceptFlag =
+              t.supports.everythingExceptFlag && t.supports[i[o]]);
+      (t.supports.everythingExceptFlag =
+        t.supports.everythingExceptFlag && !t.supports.flag),
+        (t.DOMReady = !1),
+        (t.readyCallback = function () {
+          t.DOMReady = !0;
+        }),
+        t.supports.everything ||
+          ((n = function () {
+            t.readyCallback();
+          }),
+          a.addEventListener
+            ? (a.addEventListener("DOMContentLoaded", n, !1),
+              e.addEventListener("load", n, !1))
+            : (e.attachEvent("onload", n),
+              a.attachEvent("onreadystatechange", function () {
+                "complete" === a.readyState && t.readyCallback();
+              })),
+          (r = t.source || {}).concatemoji
+            ? d(r.concatemoji)
+            : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)));
+    })(window, document, window._wpemojiSettings);
+  </script>
+  <script
+    src="https://demo.colorlib.com/sparkling/wp-includes/js/wp-emoji-release.min.js?ver=5.6"
+    type="text/javascript"
+    defer=""
+  ></script>
+  <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+  </style>
+  <link
+    rel="stylesheet"
+    id="sb_instagram_styles-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=2.6.2"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="wp-block-library-css"
+    href="https://demo.colorlib.com/sparkling/wp-includes/css/dist/block-library/style.min.css?ver=5.6"
+    type="text/css"
+    media="all"
+  />
+  <style id="wp-block-library-inline-css" type="text/css">
+    .has-text-align-justify {
+      text-align: justify;
+    }
+  </style>
+  <link
+    rel="stylesheet"
+    id="contact-form-7-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.2"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="prisna-social-counter-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/plugins/social-counter/styles/prisna-social-counter.css?ver=5.6"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="wp-pagenavi-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="sparkling-bootstrap-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/css/bootstrap.min.css?ver=5.6"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="sparkling-icons-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/css/fontawesome-all.min.css?ver=5.1.1."
+    type="text/css"
+    media="all"
+  />
+  <link
+    crossorigin="anonymous"
+    rel="stylesheet"
+    id="sparkling-fonts-css"
+    href="https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C400%2C600%2C700%7CRoboto+Slab%3A400%2C300%2C700&amp;ver=5.6"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="flexslider-css-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/css/flexslider.css?ver=5.6"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="sparkling-style-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/style.css?ver=2.4.3"
+    type="text/css"
+    media="all"
+  />
+  <link
+    rel="stylesheet"
+    id="jetpack_css-css"
+    href="https://demo.colorlib.com/sparkling/wp-content/plugins/jetpack/css/jetpack.css?ver=9.2.1"
+    type="text/css"
+    media="all"
+  />
+  <script type="text/javascript" id="monsterinsights-frontend-script-js-extra">
+    /* <![CDATA[ */
+    var monsterinsights_frontend = {
+      js_events_tracking: "true",
+      download_extensions: "pdf,doc,ppt,xls,zip,docx,pptx,xlsx",
+      inbound_paths: "[]",
+      home_url: "https:\/\/demo.colorlib.com\/sparkling",
+      hash_tracking: "false",
+    };
+    /* ]]> */
+  </script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/google-analytics-premium/assets/js/frontend.min.js?ver=7.12.2"
+    id="monsterinsights-frontend-script-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-includes/js/jquery/jquery.min.js?ver=3.5.1"
+    id="jquery-core-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+    id="jquery-migrate-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/sellfy-sell-digital-downloads/js/embed.js?ver=5.6"
+    id="sellfy-embed-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/jetpack/_inc/build/tiled-gallery/tiled-gallery/tiled-gallery.min.js?ver=5.6"
+    id="tiled-gallery-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/js/vendor/bootstrap.min.js?ver=5.6"
+    id="sparkling-bootstrapjs-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/js/functions.js?ver=20180503"
+    id="sparkling-functions-js"
+  ></script>
+  <link
+    rel="https://api.w.org/"
+    href="https://demo.colorlib.com/sparkling/wp-json/"
+  />
+  <link
+    rel="EditURI"
+    type="application/rsd+xml"
+    title="RSD"
+    href="https://demo.colorlib.com/sparkling/xmlrpc.php?rsd"
+  />
+  <link
+    rel="wlwmanifest"
+    type="application/wlwmanifest+xml"
+    href="https://demo.colorlib.com/sparkling/wp-includes/wlwmanifest.xml"
+  />
+  <meta name="generator" content="WordPress 5.6" />
+  <link rel="shortlink" href="https://wp.me/4uces" />
+  <style type="text/css">
+    img#wpstats {
+      display: none;
+    }
+  </style>
+  <style type="text/css">
+    body,
+    .entry-content {
+      color: #6b6b6b;
+    }
+    .entry-content {
+      font-family: Open Sans;
+    }
+    .entry-content {
+      font-size: 14px;
+    }
+    .entry-content {
+      font-weight: normal;
+    }
+  </style>
+  <style type="text/css">
+    .recentcomments a {
+      display: inline !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+  </style>
+  <style type="text/css">
+    .navbar > .container .navbar-brand {
+      color: #dadada;
+    }
+  </style>
+  <!-- <link
+      rel="icon"
+      href="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/11/cropped-colorlib-logo-square1-32x32.png"
+      sizes="32x32"
+    /> -->
+  <!-- <link
+      rel="icon"
+      href="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/11/cropped-colorlib-logo-square1-192x192.png"
+      sizes="192x192"
+    /> -->
+  <link
+    rel="apple-touch-icon"
+    href="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/11/cropped-colorlib-logo-square1-180x180.png"
+  />
+  <meta
+    name="msapplication-TileImage"
+    content="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/11/cropped-colorlib-logo-square1-270x270.png"
+  />
+  <style type="text/css" id="wp-custom-css">
+    .osc_servicebox .fa {
+      font-size: 40px;
+      padding: 40px;
+      background: #da4453;
+      border-radius: 50%;
+      color: #fff;
+    }
+    .osc_servicebox {
+      text-align: center;
+    }
+    .woocommerce .full-width {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .pagination {
+      display: none;
+    }
+  </style>
+  <link
+    href="chrome-extension://cjdnfmjmdligcpfcekfmenlhiopehjkd/web_resources/modal/modal.css"
+    rel="stylesheet"
+    id="__tmpStyle"
+  />
+  <link
+    rel="preload"
+    href="https://adservice.google.co.in/adsid/integrator.js?domain=demo.colorlib.com"
+    as="script"
+  />
+  <script
+    type="text/javascript"
+    src="https://adservice.google.co.in/adsid/integrator.js?domain=demo.colorlib.com"
+  ></script>
+  <link
+    rel="preload"
+    href="https://adservice.google.com/adsid/integrator.js?domain=demo.colorlib.com"
+    as="script"
+  />
+  <script
+    type="text/javascript"
+    src="https://adservice.google.com/adsid/integrator.js?domain=demo.colorlib.com"
+  ></script>
+</head>
+<body
+  class="home blog group-blog elementor-default elementor-kit-2296 infinite-scroll"
+>
+  <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+  <div id="page" class="hfeed site" style="height: auto !important">
+    <header
+      id="masthead"
+      class="site-header"
+      role="banner"
+      style="margin-bottom: 70px"
+    >
+      <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="row">
+              <div class="site-navigation-inner col-sm-12">
+                <div class="navbar-header">
+                  <div id="logo">
+                    <h1 class="site-name">
+                      <a
+                        class="navbar-brand"
+                        href="https://demo.colorlib.com/sparkling/"
+                        title="Sparkling"
+                        rel="home"
+                        >Sparkling</a
+                      >
+                    </h1>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul id="menu-top" class="nav navbar-nav">
+                    <li
+                      id="menu-item-1773"
+                      class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1773 active"
+                    >
+                      <a href="https://demo.colorlib.com/sparkling/">Home</a>
+                    </li>
+                    <li
+                      id="menu-item-1800"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1800"
+                    >
+                      <a href="https://colorlib.com/wp/themes/sparkling/"
+                        >Download</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-2024"
+                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2024"
+                    >
+                      <a href="https://demo.colorlib.com/sparkling/gallery/"
+                        >Gallery</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-1911"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1911"
+                    >
+                      <a
+                        href="https://demo.colorlib.com/sparkling/sparkling-shortcodes/"
+                        >Shortcodes</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-1774"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1774 dropdown"
+                    >
+                      <a href="https://demo.colorlib.com/sparkling/about/"
+                        >About</a
+                      ><span class="caret sparkling-dropdown"></span>
+                      <ul role="menu" class="dropdown-menu">
+                        <li
+                          id="menu-item-1782"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782"
+                        >
+                          <a
+                            title="Contact us"
+                            href="https://demo.colorlib.com/sparkling/contact-us/"
+                            ><span class="glyphicon glyphicon-envelope"></span
+                            >&nbsp;Contact us</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1788"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1788"
+                        >
+                          <a href="https://demo.colorlib.com/sparkling/languages/"
+                            >Languages</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1789"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1789"
+                        >
+                          <a
+                            title="Full Width Page"
+                            href="https://demo.colorlib.com/sparkling/full-width/"
+                            ><span
+                              class="glyphicon glyphicon-align-justify"
+                            ></span
+                            >&nbsp;Full Width Page</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1775"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1775"
+                        >
+                          <a
+                            title="Page Image Alignment"
+                            href="https://demo.colorlib.com/sparkling/about/page-image-alignment/"
+                            ><span class="glyphicon glyphicon-picture"></span
+                            >&nbsp;Page Image Alignment</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1776"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1776"
+                        >
+                          <a
+                            title="Page Markup And Formatting"
+                            href="https://demo.colorlib.com/sparkling/about/page-markup-and-formatting/"
+                            ><span class="glyphicon glyphicon-leaf"></span
+                            >&nbsp;Page Markup And Formatting</a
+                          >
+                        </li>
+                        <li role="presentation" class="dropdown-header">
+                          Comment options
+                        </li>
+                        <li role="presentation" class="divider"></li>
+                        <li
+                          id="menu-item-1778"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1778"
+                        >
+                          <a
+                            title="Page with comments"
+                            href="https://demo.colorlib.com/sparkling/about/page-with-comments/"
+                            ><span class="glyphicon glyphicon-comment"></span
+                            >&nbsp;Page with comments</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1779"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1779"
+                        >
+                          <a
+                            title="Page with comments disabled"
+                            href="https://demo.colorlib.com/sparkling/about/page-with-comments-disabled/"
+                            ><span class="glyphicon glyphicon-remove"></span
+                            >&nbsp;Page with comments disabled</a
+                          >
+                        </li>
+                        <li role="presentation" class="dropdown-header">
+                          More options
+                        </li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation" class="disabled">
+                          <a href="#">This item is disabled</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li
+                      id="menu-item-2049"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2049"
+                    >
+                      <a
+                        title="Shop"
+                        href="https://demo.colorlib.com/sparkling/shop/"
+                        ><span class="glyphicon glyphicon-shopping-cart"></span
+                        >&nbsp;Shop</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav> -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="site-navigation-inner col-sm-12">
+              <div class="navbar-header">
+                <div id="logo">
+                  <p class="site-name">
+                    <a
+                      class="navbar-brand"
+                      href="https://demo.colorlib.com/sparkling/"
+                      title="Sparkling"
+                      rel="home"
+                      >Daily ML Blogs</a
+                    >
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  class="btn navbar-toggle"
+                  data-toggle="collapse"
+                  data-target=".navbar-ex1-collapse"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul id="menu-top" class="nav navbar-nav">
+                  <li
+                    id="menu-item-1773"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1773"
+                  >
+                    <a href="../index.html">Home</a>
+                  </li>
+                  <li
+                    id="menu-item-1800"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1800"
+                  >
+                    <a href="../paper-review/index.html">Paper Reviews</a>
+                  </li>
+                  <li
+                    id="menu-item-2024"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2024"
+                  >
+                    <a href="../news/index.html">News</a>
+                  </li>
+                  <li
+                    id="menu-item-1911"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1911"
+                  >
+                    <a href="../code/index.html">Code</a>
+                  </li>
+                  <li
+                    id="menu-item-1911"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1911"
+                  >
+                    <a href="../topic/index.html">Topics</a>
+                  </li>
+                  <li
+                    id="menu-item-1911"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1911"
+                  >
+                    <a href="../about.html">About</a>
+                  </li>
+                  <!-- <li
+                    id="menu-item-1774"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1774 dropdown"
+                  >
+                    <a href="https://demo.colorlib.com/sparkling/about/"
+                      >About</a
+                    ><span class="caret sparkling-dropdown"></span>
+                    <ul role="menu" class="dropdown-menu">
+                      <li
+                        id="menu-item-1782"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782"
+                      >
+                        <a
+                          title="Contact us"
+                          href="https://demo.colorlib.com/sparkling/contact-us/"
+                          ><span class="glyphicon glyphicon-envelope"></span
+                          >&nbsp;Contact us</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1788"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1788"
+                      >
+                        <a href="https://demo.colorlib.com/sparkling/languages/"
+                          >Languages</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1789"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1789"
+                      >
+                        <a
+                          title="Full Width Page"
+                          href="https://demo.colorlib.com/sparkling/full-width/"
+                          ><span
+                            class="glyphicon glyphicon-align-justify"
+                          ></span
+                          >&nbsp;Full Width Page</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1775"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1775"
+                      >
+                        <a
+                          title="Page Image Alignment"
+                          href="https://demo.colorlib.com/sparkling/about/page-image-alignment/"
+                          ><span class="glyphicon glyphicon-picture"></span
+                          >&nbsp;Page Image Alignment</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1776"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1776"
+                      >
+                        <a
+                          title="Page Markup And Formatting"
+                          href="https://demo.colorlib.com/sparkling/about/page-markup-and-formatting/"
+                          ><span class="glyphicon glyphicon-leaf"></span
+                          >&nbsp;Page Markup And Formatting</a
+                        >
+                      </li>
+                      <li role="presentation" class="dropdown-header">
+                        Comment options
+                      </li>
+                      <li role="presentation" class="divider"></li>
+                      <li
+                        id="menu-item-1778"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1778"
+                      >
+                        <a
+                          title="Page with comments"
+                          href="https://demo.colorlib.com/sparkling/about/page-with-comments/"
+                          ><span class="glyphicon glyphicon-comment"></span
+                          >&nbsp;Page with comments</a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-1779"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1779"
+                      >
+                        <a
+                          title="Page with comments disabled"
+                          href="https://demo.colorlib.com/sparkling/about/page-with-comments-disabled/"
+                          ><span class="glyphicon glyphicon-remove"></span
+                          >&nbsp;Page with comments disabled</a
+                        >
+                      </li>
+                      <li role="presentation" class="dropdown-header">
+                        More options
+                      </li>
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation" class="disabled">
+                        <a href="#">This item is disabled</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <!-- <li
+                    id="menu-item-2049"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2049"
+                  >
+                    <a
+                      title="Shop"
+                      href="https://demo.colorlib.com/sparkling/shop/"
+                      ><span class="glyphicon glyphicon-shopping-cart"></span
+                      >&nbsp;Shop</a
+                    >
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="content" class="site-content" style="height: auto !important">
+      <div class="container main-content-area" style="height: auto !important">
+        <div class="row side-pull-left" style="height: auto !important">
+          <div class="main-content-inner col-sm-12 col-md-8">
+            <div id="primary" class="content-area">
+              <main id="main" class="site-main" role="main">
+                <article
+                  id="post-1241"
+                  class="post-1241 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-featured tag-sticky-2 tag-template"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/template-sticky/"
+                      title="Sticky Post – Always Displayed On Top"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/colorlib-logo-slider-750x410.jpg"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1808"
+                        data-permalink="https://demo.colorlib.com/sparkling/post-format-gallery/colorlib-logo-slider/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/colorlib-logo-slider.jpg"
+                        data-orig-size="1920,600"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="colorlib-logo-slider"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/colorlib-logo-slider-300x93.jpg"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/colorlib-logo-slider-1024x320.jpg"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/template-sticky/"
+                            rel="bookmark"
+                            >Sticky Post – Always Displayed On Top</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/template-sticky/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-01-07T07:07:21+00:00"
+                                >January 7, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:19+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Praesent aliquet sapien ac velit volutpat
+                          sagittis. Vestibulum eu nunc eget risus laoreet mollis
+                          nec sit amet libero. Cras tempor lorem sit amet tempus
+                          laoreet. Fusce vitae est elit. Maecenas ac augue
+                          hendrerit, lacinia eros nec, elementum purus. Donec
+                          sed sem at enim bibendum molestie eu ut […]
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/template-sticky/"
+                            title="Sticky Post – Always Displayed On Top"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="post-1149"
+                  class="post-1149 post type-post status-publish format-standard has-post-thumbnail hentry category-slider category-template-2 tag-comments-2 tag-pingbacks-2 tag-template tag-trackbacks-2"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                      title="How to Use WordPress Pingbacks And Trackbacks"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-750x410.jpg"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1813"
+                        data-permalink="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/city-landscape-slider/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider.jpg"
+                        data-orig-size="1920,600"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="city-landscape-slider"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-300x93.jpg"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-1024x320.jpg"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                            rel="bookmark"
+                            >How to Use WordPress Pingbacks And Trackbacks</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-04-07T10:17:18+00:00"
+                                >April 7, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:19+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                          <span class="comments-link"
+                            ><i class="fa fa-comments"></i
+                            ><a
+                              href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/#comments"
+                              >30 Comments</a
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Dynamically target high-payoff intellectual capital
+                          for customized technologies. Objectively integrate
+                          emerging core competencies before process-centric
+                          communities.
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                            title="How to Use WordPress Pingbacks And Trackbacks"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="post-1"
+                  class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-slider category-uncategorized"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/hello-world/"
+                      title="We Created This Awesome Free WordPress Theme To Set New Industry Standard"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-750x410.png"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1769"
+                        data-permalink="https://demo.colorlib.com/sparkling/hello-world/slider-wallpaper-colorlib/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib.png"
+                        data-orig-size="1920,600"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="slider-wallpaper-colorlib"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-300x93.png"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-1024x320.png"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/hello-world/"
+                            rel="bookmark"
+                            >We Created This Awesome Free WordPress Theme To Set
+                            New Industry Standard</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/hello-world/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-04-06T19:17:06+00:00"
+                                >April 6, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:18+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                          <span class="comments-link"
+                            ><i class="fa fa-comments"></i
+                            ><a
+                              href="https://demo.colorlib.com/sparkling/hello-world/#comments"
+                              >19 Comments</a
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Welcome to WordPress. This is your first post. Edit or
+                          delete it, then start blogging!
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/hello-world/"
+                            title="We Created This Awesome Free WordPress Theme To Set New Industry Standard"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="post-555"
+                  class="post-555 post type-post status-publish format-gallery has-post-thumbnail hentry category-post-formats category-slider tag-gallery tag-post-formats tag-shortcode post_format-post-format-gallery"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                      title="Post Format: WordPress Tiled Gallery"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-750x410.jpg"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1810"
+                        data-permalink="https://demo.colorlib.com/sparkling/post-format-gallery/slider-image-blurry/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry.jpg"
+                        data-orig-size="1920,600"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="slider-image-blurry"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-300x93.jpg"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-1024x320.jpg"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                            rel="bookmark"
+                            >Post Format: WordPress Tiled Gallery</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-03-28T07:24:14+00:00"
+                                >March 28, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:19+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                          <span class="comments-link"
+                            ><i class="fa fa-comments"></i
+                            ><a
+                              href="https://demo.colorlib.com/sparkling/post-format-gallery/#comments"
+                              >6 Comments</a
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Cras id est lobortis, sodales dui sit amet, tempor
+                          urna. Aenean condimentum lobortis elementum. Vivamus
+                          tincidunt lobortis purus, a bibendum tellus imperdiet
+                          non. Proin blandit ultricies sapien, non feugiat
+                          justo. Nulla sem tortor, venenatis ut egestas a,
+                          facilisis et dolor. Aenean a eros molestie,
+                          condimentum urna sit amet, congue nulla. Ut pharetra
+                          quam velit, a […]
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                            title="Post Format: WordPress Tiled Gallery"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="post-1179"
+                  class="post-1179 post type-post status-publish format-standard has-post-thumbnail hentry category-media-2 tag-content-2 tag-embeds-2 tag-media tag-twitter-2"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/media-twitter-embeds/"
+                      title="Twitter Embeds – We Used Colorlib Twitter Account For This Demo"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2011/03/vine-logo-750x410.png"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1739"
+                        data-permalink="https://demo.colorlib.com/sparkling/media-twitter-embeds/vine-logo/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2011/03/vine-logo.png"
+                        data-orig-size="1200,1200"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="vine-logo"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2011/03/vine-logo-300x300.png"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2011/03/vine-logo-1024x1024.png"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/media-twitter-embeds/"
+                            rel="bookmark"
+                            >Twitter Embeds – We Used Colorlib Twitter Account
+                            For This Demo</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/media-twitter-embeds/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-03-15T15:47:16+00:00"
+                                >March 15, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:19+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Vestibulum nec risus nibh. Morbi accumsan libero enim,
+                          in varius lacus convallis ut. Integer vulputate diam
+                          vitae ante convallis fermentum. Duis lobortis sed nisi
+                          quis blandit. Suspendisse vel leo ut purus ullamcorper
+                          dapibus et vitae nulla. Fusce venenatis mi elit,
+                          eleifend mollis dui ultricies et. Duis sodales semper
+                          elit, non tincidunt ante blandit ac. Nulla […]
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/media-twitter-embeds/"
+                            title="Twitter Embeds – We Used Colorlib Twitter Account For This Demo"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="post-1016"
+                  class="post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template"
+                >
+                  <div class="blog-item-wrap">
+                    <a
+                      href="https://demo.colorlib.com/sparkling/template-featured-image-vertical/"
+                      title="Another Featured Image Template With a Beautiful Instagram Logo"
+                    >
+                      <img
+                        width="750"
+                        height="410"
+                        src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2012/03/instagram_logo_new-750x410.jpg"
+                        class="single-featured wp-post-image"
+                        alt=""
+                        loading="lazy"
+                        data-attachment-id="1719"
+                        data-permalink="https://demo.colorlib.com/sparkling/template-featured-image-horizontal/instagram_logo_new/"
+                        data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2012/03/instagram_logo_new.jpg"
+                        data-orig-size="800,600"
+                        data-comments-opened="1"
+                        data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                        data-image-title="instagram_logo_new"
+                        data-image-description=""
+                        data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2012/03/instagram_logo_new-300x225.jpg"
+                        data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2012/03/instagram_logo_new.jpg"
+                      />
+                    </a>
+                    <div class="post-inner-content">
+                      <header class="entry-header page-header">
+                        <h2 class="entry-title">
+                          <a
+                            href="https://demo.colorlib.com/sparkling/template-featured-image-vertical/"
+                            rel="bookmark"
+                            >Another Featured Image Template With a Beautiful
+                            Instagram Logo</a
+                          >
+                        </h2>
+                        <div class="entry-meta">
+                          <span class="posted-on"
+                            ><i class="fa fa-calendar-alt"></i>
+                            <a
+                              href="https://demo.colorlib.com/sparkling/template-featured-image-vertical/"
+                              rel="bookmark"
+                              ><time
+                                class="entry-date published"
+                                datetime="2015-03-15T15:36:32+00:00"
+                                >March 15, 2015</time
+                              ><time
+                                class="updated"
+                                datetime="2020-10-20T14:25:19+00:00"
+                                >October 20, 2020</time
+                              ></a
+                            ></span
+                          ><span class="byline">
+                            <i class="fa fa-user"></i>
+                            <span class="author vcard"
+                              ><a
+                                class="url fn n"
+                                href="https://demo.colorlib.com/sparkling/author/aigars-silkalns/"
+                                >Aigars</a
+                              ></span
+                            ></span
+                          >
+                        </div>
+                      </header>
+                      <div class="entry-content">
+                        <p>
+                          Collaboratively administrate empowered markets via
+                          plug-and-play networks. Dynamically procrastinate B2C
+                          users after installed base benefits. Dramatically
+                          visualize customer directed convergence without
+                          revolutionary ROI. Efficiently unleash cross-media
+                          information without cross-media value. Quickly
+                          maximize timely deliverables for real-time schemas.
+                          Dramatically maintain clicks-and-mortar solutions
+                          without functional solutions.
+                        </p>
+                        <p>
+                          <a
+                            class="btn btn-default read-more"
+                            href="https://demo.colorlib.com/sparkling/template-featured-image-vertical/"
+                            title="Another Featured Image Template With a Beautiful Instagram Logo"
+                            >Read More</a
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <ul
+                  class="pagination pagination-centered wp-pagenavi-pagination"
+                >
+                  class='wp-pagenavi' role='navigation'&gt;
+                  <li><span class="pages">Page 1 of 8</span></li>
+                  <li><span aria-current="page" class="current">1</span></li>
+                  <li>
+                    <a
+                      class="page larger"
+                      title="Page 2"
+                      href="https://demo.colorlib.com/sparkling/page/2/"
+                      >2</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="page larger"
+                      title="Page 3"
+                      href="https://demo.colorlib.com/sparkling/page/3/"
+                      >3</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="page larger"
+                      title="Page 4"
+                      href="https://demo.colorlib.com/sparkling/page/4/"
+                      >4</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="page larger"
+                      title="Page 5"
+                      href="https://demo.colorlib.com/sparkling/page/5/"
+                      >5</a
+                    >
+                  </li>
+                  <li><span class="extend">...</span></li>
+                  <li>
+                    <a
+                      class="nextpostslink"
+                      rel="next"
+                      href="https://demo.colorlib.com/sparkling/page/2/"
+                      >»</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="last"
+                      href="https://demo.colorlib.com/sparkling/page/8/"
+                      >Last »</a
+                    >
+                  </li>
+                </ul>
+                <!-- <div id="infinite-handle">
+                    <span><button>Older posts</button></span>
+                  </div> -->
+              </main>
+            </div>
+          </div>
+          <div
+            id="secondary"
+            class="widget-area col-sm-12 col-md-4"
+            role="complementary"
+            style="height: auto !important; min-height: 0px !important"
+          >
+            <div
+              class="well"
+              style="height: auto !important; min-height: 0px !important"
+            >
+              <aside id="sparkling-social-2" class="widget sparkling-social">
+                <h3 class="widget-title">Follow me</h3>
+
+                <div class="social-icons sticky-sidebar-social">
+                  <nav id="menu-social" class="social-icons">
+                    <ul id="menu-social-items" class="social-menu">
+                      <li
+                        id="menu-item-2036"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2036"
+                      >
+                        <a href="https://twitter.com/Atharva93149016"
+                          ><i class="social_icon"><span>Twitter</span></i></a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-2037"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"
+                      >
+                        <a href="https://www.facebook.com/atharva.naik.391/"
+                          ><i class="social_icon"
+                            ><span>Follow us on Facebook</span></i
+                          ></a
+                        >
+                      </li>
+                      <li
+                        id="menu-item-2038"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2038"
+                      >
+                        <a
+                          href="https://www.youtube.com/channel/UCJ9FuawTwFKvT_ei3MM9Jxg"
+                          ><i class="social_icon"
+                            ><span>Follow us on Youtube</span></i
+                          ></a
+                        >
+                      </li>
+                      <!-- <li
+                          id="menu-item-2039"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2039"
+                        >
+                          <a href="https://plus.google.com/+Colorlib"
+                            ><i class="social_icon"
+                              ><span>Follow us on Google+</span></i
+                            ></a
+                          >
+                        </li> -->
+                      <li
+                        id="menu-item-2040"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2040"
+                      >
+                        <a href="https://github.com/atharva-naik"
+                          ><i class="social_icon"
+                            ><span>Follow us on Github</span></i
+                          ></a
+                        >
+                      </li>
+                      <!-- <li
+                          id="menu-item-2039"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2039"
+                        >
+                          <a href="http://reddit.com/user/atharvanaik/"
+                            ><i class="social_icon"><span>Facebook</span></i></a
+                          >
+                        </li> -->
+                    </ul>
+                  </nav>
+                </div>
+              </aside>
+              <aside
+                id="sparkling_popular_posts-2"
+                class="widget sparkling-popular-posts"
+              >
+                <h3 class="widget-title">Popular Posts</h3>
+
+                <div class="popular-posts-wrapper">
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-60x60.jpg"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-60x60.jpg    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-150x150.jpg 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1813"
+                          data-permalink="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/city-landscape-slider/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider.jpg"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="city-landscape-slider"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-300x93.jpg"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-1024x320.jpg"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                        >How to Use WordPress Pingbacks And Trackbacks</a
+                      >
+                      <span class="date">April 7, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-comments/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-150x150.png 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1769"
+                          data-permalink="https://demo.colorlib.com/sparkling/hello-world/slider-wallpaper-colorlib/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib.png"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-wallpaper-colorlib"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-300x93.png"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-1024x320.png"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-comments/"
+                        >This is how comments will be displayed on Sparkling WP
+                        Theme</a
+                      >
+                      <span class="date">January 3, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/hello-world/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-150x150.png 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1769"
+                          data-permalink="https://demo.colorlib.com/sparkling/hello-world/slider-wallpaper-colorlib/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib.png"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-wallpaper-colorlib"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-300x93.png"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-1024x320.png"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a href="https://demo.colorlib.com/sparkling/hello-world/"
+                        >We Created This Awesome Free WordPress Theme To Set New
+                        Industry Standard</a
+                      >
+                      <span class="date">April 6, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image gallery">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-60x60.jpg"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-60x60.jpg    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-150x150.jpg 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1810"
+                          data-permalink="https://demo.colorlib.com/sparkling/post-format-gallery/slider-image-blurry/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry.jpg"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-image-blurry"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-300x93.jpg"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-1024x320.jpg"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                        >Post Format: WordPress Tiled Gallery</a
+                      >
+                      <span class="date">March 28, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-password-protected/"
+                      >
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-password-protected/"
+                        >Protected: Template: Password Protected (the password
+                        is “enter”)</a
+                      >
+                      <span class="date">January 4, 2015</span>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+              <!-- <aside id="sparkling-cats-2" class="widget sparkling-cats">
+                  <h3 class="widget-title">Categories</h3>
+                  <div class="cats-widget">
+                    <ul>
+                      <li class="cat-item cat-item-38">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/post-formats/"
+                          title="Posts in this category test post formats."
+                          >Post Formats</a
+                        >
+                        <span>16</span>
+                      </li>
+                      <li class="cat-item cat-item-1">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/uncategorized/"
+                          >Uncategorized</a
+                        >
+                        <span>10</span>
+                      </li>
+                      <li class="cat-item cat-item-49">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/template-2/"
+                          title="Posts with template-related tests"
+                          >Template</a
+                        >
+                        <span>10</span>
+                      </li>
+                      <li class="cat-item cat-item-19">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/edge-case-2/"
+                          title="Posts that have edge-case related tests"
+                          >Edge Case</a
+                        >
+                        <span>6</span>
+                      </li>
+                      <li class="cat-item cat-item-29">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/markup/"
+                          title="Posts in this category test markup tags and styles."
+                          >Markup</a
+                        >
+                        <span>6</span>
+                      </li>
+                      <li class="cat-item cat-item-193">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/slider/"
+                          >Slider</a
+                        >
+                        <span>3</span>
+                      </li>
+                      <li class="cat-item cat-item-30">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/media-2/"
+                          title="Posts that have media-related tests"
+                          >Media</a
+                        >
+                        <span>2</span>
+                      </li>
+                      <li class="cat-item cat-item-190">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/featured/"
+                          >Featured</a
+                        >
+                        <span>2</span>
+                      </li>
+                    </ul>
+                  </div>
+                </aside> -->
+              <aside
+                id="custom_html-2"
+                class="widget_text widget widget_custom_html"
+                style="height: auto !important"
+              >
+                <!-- <h3 class="widget-title">Theme is AdSense Ready</h3> -->
+                <div class="textwidget custom-html-widget">
+                  <script
+                    async=""
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+                  ></script>
+
+                  <ins
+                    class="adsbygoogle"
+                    style="display: block; height: 600px"
+                    data-ad-client="ca-pub-7397764995846596"
+                    data-ad-slot="5143028850"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"
+                    data-adsbygoogle-status="done"
+                    ><ins
+                      id="aswift_0_expand"
+                      style="
+                        display: inline-table;
+                        border: none;
+                        height: 600px;
+                        margin: 0;
+                        padding: 0;
+                        position: relative;
+                        visibility: visible;
+                        width: 298px;
+                        background-color: transparent;
+                      "
+                      tabindex="0"
+                      title="Advertisement"
+                      aria-label="Advertisement"
+                      ><ins
+                        id="aswift_0_anchor"
+                        style="
+                          display: block;
+                          border: none;
+                          height: 600px;
+                          margin: 0px;
+                          padding: 0px;
+                          position: relative;
+                          visibility: visible;
+                          width: 298px;
+                          background-color: transparent;
+                          overflow: visible;
+                        "
+                        ><iframe
+                          id="aswift_0"
+                          name="aswift_0"
+                          style="
+                            left: 0;
+                            position: absolute;
+                            top: 0;
+                            border: 0;
+                            width: 298px;
+                            height: 600px;
+                          "
+                          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                          width="298"
+                          height="600"
+                          frameborder="0"
+                          src="https://googleads.g.doubleclick.net/pagead/ads?guci=2.2.0.0.2.2.0.0&amp;client=ca-pub-7397764995846596&amp;output=html&amp;h=600&amp;slotname=5143028850&amp;adk=4186829556&amp;adf=354466167&amp;pi=t.ma~as.5143028850&amp;w=298&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1609546719&amp;rafmt=1&amp;psa=1&amp;format=298x600&amp;url=https%3A%2F%2Fdemo.colorlib.com%2Fsparkling%2Fhello-world%2F&amp;flash=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=4&amp;wgl=1&amp;tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hZHNlcnZpY2UuZ29vZ2xlLmNvbSIsInN0YXRlIjowfSx7Imlzc3Vlck9yaWdpbiI6Imh0dHBzOi8vYXR0ZXN0YXRpb24uYW5kcm9pZC5jb20iLCJzdGF0ZSI6MH1d&amp;dt=1609546715821&amp;bpp=26&amp;bdt=456&amp;idt=4163&amp;shv=r20201203&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D7bdd1886146070bd-227b672d66c50011%3AT%3D1609545480%3ART%3D1609545480%3AS%3DALNI_Mbl-RXQSll_mYV9cSQshCd_8Z_qVQ&amp;correlator=7916420411165&amp;frm=20&amp;pv=2&amp;ga_vid=1379415805.1609419399&amp;ga_sid=1609546720&amp;ga_hid=1202392396&amp;ga_fc=0&amp;ga_cid=1028402361.1609545477&amp;u_tz=330&amp;u_his=3&amp;u_java=0&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1056&amp;u_aw=1855&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=977&amp;ady=1271&amp;biw=1472&amp;bih=748&amp;scr_x=0&amp;scr_y=1491&amp;eid=42530671%2C21068946%2C21066973&amp;oid=3&amp;pvsid=1876234759009147&amp;pem=836&amp;rx=0&amp;eae=0&amp;fc=640&amp;brdim=65%2C24%2C65%2C24%2C1855%2C24%2C1855%2C1056%2C1484%2C748&amp;vis=1&amp;rsz=%7C%7CoEe%7C&amp;abl=CS&amp;pfx=0&amp;fu=8320&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;xpc=dmoX5WCGbA&amp;p=https%3A//demo.colorlib.com&amp;dtd=4176"
+                          marginwidth="0"
+                          marginheight="0"
+                          vspace="0"
+                          hspace="0"
+                          allowtransparency="true"
+                          scrolling="no"
+                          allowfullscreen="true"
+                          data-google-container-id="a!1"
+                          data-google-query-id="CPDoxeT8--0CFQw-jwod4dQFNw"
+                          data-load-complete="true"
+                        ></iframe></ins></ins
+                  ></ins>
+                  <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                  </script>
+                </div>
+              </aside>
+              <aside id="search-2" class="widget widget_search">
+                <form
+                  role="search"
+                  method="get"
+                  class="form-search"
+                  action="https://demo.colorlib.com/sparkling/"
+                >
+                  <div class="input-group">
+                    <label class="screen-reader-text" for="s"
+                      >Search for:</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control search-query"
+                      placeholder="Search…"
+                      value=""
+                      name="s"
+                      title="Search for:"
+                    />
+                    <span class="input-group-btn">
+                      <button
+                        type="submit"
+                        class="btn btn-default"
+                        name="submit"
+                        id="searchsubmit"
+                        value="Search"
+                      >
+                        <span class="glyphicon glyphicon-search"></span>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </aside>
+              <!-- <aside
+                  id="recent-comments-2"
+                  class="widget widget_recent_comments"
+                >
+                  <h3 class="widget-title">Recent Comments</h3>
+                  <ul id="recentcomments">
+                    <li class="recentcomments">
+                      <span class="comment-author-link">HostingQnA</span> on
+                      <a
+                        href="https://demo.colorlib.com/sparkling/post-format-gallery/#comment-88703"
+                        >Post Format: WordPress Tiled Gallery</a
+                      >
+                    </li>
+                    <li class="recentcomments">
+                      <span class="comment-author-link">Gilza</span> on
+                      <a
+                        href="https://demo.colorlib.com/sparkling/sparkling-shortcodes/#comment-87364"
+                        >Bootstrap Shortcodes For Sparkling WordPress Theme</a
+                      >
+                    </li>
+                    <li class="recentcomments">
+                      <span class="comment-author-link">no</span> on
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/#comment-86875"
+                        >How to Use WordPress Pingbacks And Trackbacks</a
+                      >
+                    </li>
+                    <li class="recentcomments">
+                      <span class="comment-author-link">BALIKU</span> on
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/#comment-86533"
+                        >How to Use WordPress Pingbacks And Trackbacks</a
+                      >
+                    </li>
+                    <li class="recentcomments">
+                      <span class="comment-author-link">Alfan Mask</span> on
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/#comment-86337"
+                        >How to Use WordPress Pingbacks And Trackbacks</a
+                      >
+                    </li>
+                  </ul>
+                </aside> -->
+              <aside id="categories-2" class="widget widget_categories">
+                <h3 class="widget-title">Categories</h3>
+                <form action="https://demo.colorlib.com/sparkling" method="get">
+                  <label class="screen-reader-text" for="cat">Categories</label
+                  ><select name="cat" id="cat" class="postform form-control">
+                    <option value="-1">Select Category</option>
+                    <option class="level-0" value="2">aciform</option>
+                    <option class="level-0" value="3">antiquarianism</option>
+                    <option class="level-0" value="4">arrangement</option>
+                    <option class="level-0" value="5">asmodeus</option>
+                    <option class="level-0" value="7">broder</option>
+                    <option class="level-0" value="8">buying</option>
+                    <option class="level-0" value="9">Cat A</option>
+                    <option class="level-0" value="10">Cat B</option>
+                    <option class="level-0" value="11">Cat C</option>
+                    <option class="level-0" value="12">championship</option>
+                    <option class="level-0" value="13">chastening</option>
+                    <option class="level-0" value="57">Child 1</option>
+                    <option class="level-0" value="58">Child 2</option>
+                    <option class="level-0" value="59">
+                      Child Category 01
+                    </option>
+                    <option class="level-0" value="60">
+                      Child Category 02
+                    </option>
+                    <option class="level-0" value="61">
+                      Child Category 03
+                    </option>
+                    <option class="level-0" value="62">
+                      Child Category 04
+                    </option>
+                    <option class="level-0" value="63">
+                      Child Category 05
+                    </option>
+                    <option class="level-0" value="14">clerkship</option>
+                    <option class="level-0" value="15">disinclination</option>
+                    <option class="level-0" value="16">disinfection</option>
+                    <option class="level-0" value="17">dispatch</option>
+                    <option class="level-0" value="18">echappee</option>
+                    <option class="level-0" value="19">Edge Case</option>
+                    <option class="level-0" value="20">enphagy</option>
+                    <option class="level-0" value="21">equipollent</option>
+                    <option class="level-0" value="22">fatuity</option>
+                    <option class="level-0" value="190">Featured</option>
+                    <option class="level-0" value="23">Foo A</option>
+                    <option class="level-0" value="64">Foo A</option>
+                    <option class="level-0" value="24">Foo Parent</option>
+                    <option class="level-0" value="25">gaberlunzie</option>
+                    <option class="level-0" value="65">
+                      Grandchild Category
+                    </option>
+                    <option class="level-0" value="26">illtempered</option>
+                    <option class="level-0" value="27">insubordination</option>
+                    <option class="level-0" value="28">lender</option>
+                    <option class="level-0" value="29">Markup</option>
+                    <option class="level-0" value="30">Media</option>
+                    <option class="level-0" value="31">monosyllable</option>
+                    <option class="level-0" value="32">packthread</option>
+                    <option class="level-0" value="33">palter</option>
+                    <option class="level-0" value="34">papilionaceous</option>
+                    <option class="level-0" value="35">Parent</option>
+                    <option class="level-0" value="36">Parent Category</option>
+                    <option class="level-0" value="37">personable</option>
+                    <option class="level-0" value="38">Post Formats</option>
+                    <option class="level-0" value="39">propylaeum</option>
+                    <option class="level-0" value="40">pustule</option>
+                    <option class="level-0" value="41">quartern</option>
+                    <option class="level-0" value="42">scholarship</option>
+                    <option class="level-0" value="43">selfconvicted</option>
+                    <option class="level-0" value="44">showshoe</option>
+                    <option class="level-0" value="193">Slider</option>
+                    <option class="level-0" value="45">sloyd</option>
+                    <option class="level-0" value="46">sub</option>
+                    <option class="level-0" value="47">sublunary</option>
+                    <option class="level-0" value="48">tamtam</option>
+                    <option class="level-0" value="49">Template</option>
+                    <option class="level-0" value="1">Uncategorized</option>
+                    <option class="level-0" value="50">Unpublished</option>
+                    <option class="level-0" value="51">weakhearted</option>
+                    <option class="level-0" value="52">ween</option>
+                    <option class="level-0" value="53">wellhead</option>
+                    <option class="level-0" value="54">wellintentioned</option>
+                    <option class="level-0" value="55">whetstone</option>
+                    <option class="level-0" value="56">years</option>
+                  </select>
+                </form>
+                <script type="text/javascript">
+                  /* <![CDATA[ */
+                  (function () {
+                    var dropdown = document.getElementById("cat");
+                    function onCatChange() {
+                      if (dropdown.options[dropdown.selectedIndex].value > 0) {
+                        dropdown.parentNode.submit();
+                      }
+                    }
+                    dropdown.onchange = onCatChange;
+                  })();
+                  /* ]]> */
+                </script>
+              </aside>
+              <aside id="tag_cloud-2" class="widget widget_tag_cloud">
+                <h3 class="widget-title">Tags</h3>
+                <div class="tagcloud">
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/8bit/"
+                    class="tag-cloud-link tag-link-66 tag-link-position-1"
+                    style="font-size: 8pt"
+                    aria-label="8BIT (1 item)"
+                    >8BIT</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/alignment-2/"
+                    class="tag-cloud-link tag-link-67 tag-link-position-2"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="alignment (3 items)"
+                    >alignment</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/articles/"
+                    class="tag-cloud-link tag-link-68 tag-link-position-3"
+                    style="font-size: 8pt"
+                    aria-label="Articles (1 item)"
+                    >Articles</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/aside/"
+                    class="tag-cloud-link tag-link-69 tag-link-position-4"
+                    style="font-size: 8pt"
+                    aria-label="aside (1 item)"
+                    >aside</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/audio/"
+                    class="tag-cloud-link tag-link-70 tag-link-position-5"
+                    style="font-size: 8pt"
+                    aria-label="audio (1 item)"
+                    >audio</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/captions-2/"
+                    class="tag-cloud-link tag-link-71 tag-link-position-6"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="captions (2 items)"
+                    >captions</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/categories/"
+                    class="tag-cloud-link tag-link-72 tag-link-position-7"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="categories (2 items)"
+                    >categories</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/chat/"
+                    class="tag-cloud-link tag-link-73 tag-link-position-8"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="chat (2 items)"
+                    >chat</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/codex/"
+                    class="tag-cloud-link tag-link-77 tag-link-position-9"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="Codex (3 items)"
+                    >Codex</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/comments-2/"
+                    class="tag-cloud-link tag-link-78 tag-link-position-10"
+                    style="font-size: 14.021505376344pt"
+                    aria-label="comments (4 items)"
+                    >comments</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/content-2/"
+                    class="tag-cloud-link tag-link-79 tag-link-position-11"
+                    style="font-size: 20.193548387097pt"
+                    aria-label="content (12 items)"
+                    >content</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/css/"
+                    class="tag-cloud-link tag-link-81 tag-link-position-12"
+                    style="font-size: 17.032258064516pt"
+                    aria-label="css (7 items)"
+                    >css</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/dowork/"
+                    class="tag-cloud-link tag-link-85 tag-link-position-13"
+                    style="font-size: 8pt"
+                    aria-label="dowork (1 item)"
+                    >dowork</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/edge-case/"
+                    class="tag-cloud-link tag-link-86 tag-link-position-14"
+                    style="font-size: 17.784946236559pt"
+                    aria-label="edge case (8 items)"
+                    >edge case</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/embeds-2/"
+                    class="tag-cloud-link tag-link-87 tag-link-position-15"
+                    style="font-size: 14.021505376344pt"
+                    aria-label="embeds (4 items)"
+                    >embeds</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/excerpt-2/"
+                    class="tag-cloud-link tag-link-91 tag-link-position-16"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="excerpt (3 items)"
+                    >excerpt</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/fail/"
+                    class="tag-cloud-link tag-link-92 tag-link-position-17"
+                    style="font-size: 8pt"
+                    aria-label="Fail (1 item)"
+                    >Fail</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/featured-image/"
+                    class="tag-cloud-link tag-link-93 tag-link-position-18"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="featured image (3 items)"
+                    >featured image</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/formatting-2/"
+                    class="tag-cloud-link tag-link-96 tag-link-position-19"
+                    style="font-size: 8pt"
+                    aria-label="formatting (1 item)"
+                    >formatting</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/ftw/"
+                    class="tag-cloud-link tag-link-97 tag-link-position-20"
+                    style="font-size: 8pt"
+                    aria-label="FTW (1 item)"
+                    >FTW</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/fun/"
+                    class="tag-cloud-link tag-link-98 tag-link-position-21"
+                    style="font-size: 8pt"
+                    aria-label="Fun (1 item)"
+                    >Fun</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/gallery/"
+                    class="tag-cloud-link tag-link-99 tag-link-position-22"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="gallery (3 items)"
+                    >gallery</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/html/"
+                    class="tag-cloud-link tag-link-105 tag-link-position-23"
+                    style="font-size: 15.225806451613pt"
+                    aria-label="html (5 items)"
+                    >html</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/image/"
+                    class="tag-cloud-link tag-link-106 tag-link-position-24"
+                    style="font-size: 17.032258064516pt"
+                    aria-label="image (7 items)"
+                    >image</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/jetpack-2/"
+                    class="tag-cloud-link tag-link-109 tag-link-position-25"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="jetpack (3 items)"
+                    >jetpack</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/layout/"
+                    class="tag-cloud-link tag-link-111 tag-link-position-26"
+                    style="font-size: 14.021505376344pt"
+                    aria-label="layout (4 items)"
+                    >layout</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/link/"
+                    class="tag-cloud-link tag-link-112 tag-link-position-27"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="link (2 items)"
+                    >link</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/lists-2/"
+                    class="tag-cloud-link tag-link-113 tag-link-position-28"
+                    style="font-size: 8pt"
+                    aria-label="lists (1 item)"
+                    >lists</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/love/"
+                    class="tag-cloud-link tag-link-115 tag-link-position-29"
+                    style="font-size: 8pt"
+                    aria-label="Love (1 item)"
+                    >Love</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/markup-2/"
+                    class="tag-cloud-link tag-link-116 tag-link-position-30"
+                    style="font-size: 16.279569892473pt"
+                    aria-label="markup (6 items)"
+                    >markup</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/media/"
+                    class="tag-cloud-link tag-link-117 tag-link-position-31"
+                    style="font-size: 8pt"
+                    aria-label="media (1 item)"
+                    >media</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/mothership/"
+                    class="tag-cloud-link tag-link-122 tag-link-position-32"
+                    style="font-size: 8pt"
+                    aria-label="Mothership (1 item)"
+                    >Mothership</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/mustread/"
+                    class="tag-cloud-link tag-link-123 tag-link-position-33"
+                    style="font-size: 8pt"
+                    aria-label="Must Read (1 item)"
+                    >Must Read</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/nailedit/"
+                    class="tag-cloud-link tag-link-124 tag-link-position-34"
+                    style="font-size: 8pt"
+                    aria-label="Nailed It (1 item)"
+                    >Nailed It</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/pagination/"
+                    class="tag-cloud-link tag-link-126 tag-link-position-35"
+                    style="font-size: 8pt"
+                    aria-label="pagination (1 item)"
+                    >pagination</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/post-formats/"
+                    class="tag-cloud-link tag-link-194 tag-link-position-36"
+                    style="font-size: 22pt"
+                    aria-label="Post Formats (16 items)"
+                    >Post Formats</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/quote/"
+                    class="tag-cloud-link tag-link-139 tag-link-position-37"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="quote (2 items)"
+                    >quote</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/shortcode/"
+                    class="tag-cloud-link tag-link-145 tag-link-position-38"
+                    style="font-size: 16.279569892473pt"
+                    aria-label="shortcode (6 items)"
+                    >shortcode</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/standard-2/"
+                    class="tag-cloud-link tag-link-147 tag-link-position-39"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="standard (2 items)"
+                    >standard</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/template/"
+                    class="tag-cloud-link tag-link-159 tag-link-position-40"
+                    style="font-size: 20.193548387097pt"
+                    aria-label="template (12 items)"
+                    >template</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/title/"
+                    class="tag-cloud-link tag-link-164 tag-link-position-41"
+                    style="font-size: 15.225806451613pt"
+                    aria-label="title (5 items)"
+                    >title</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/twitter-2/"
+                    class="tag-cloud-link tag-link-166 tag-link-position-42"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="twitter (2 items)"
+                    >twitter</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/video/"
+                    class="tag-cloud-link tag-link-169 tag-link-position-43"
+                    style="font-size: 12.516129032258pt"
+                    aria-label="video (3 items)"
+                    >video</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/videopress/"
+                    class="tag-cloud-link tag-link-170 tag-link-position-44"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="videopress (2 items)"
+                    >videopress</a
+                  >
+                  <a
+                    href="https://demo.colorlib.com/sparkling/tag/wordpress-tv/"
+                    class="tag-cloud-link tag-link-173 tag-link-position-45"
+                    style="font-size: 10.709677419355pt"
+                    aria-label="wordpress.tv (2 items)"
+                    >wordpress.tv</a
+                  >
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-area">
+      <div class="container footer-inner">
+        <div class="row">
+          <div class="footer-widget-area">
+            <div class="col-sm-4 footer-widget" role="complementary">
+              <div
+                id="sparkling_popular_posts-3"
+                class="widget sparkling-popular-posts"
+              >
+                <h3 class="widgettitle">Popular Posts</h3>
+
+                <div class="popular-posts-wrapper">
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-60x60.jpg"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-60x60.jpg    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-150x150.jpg 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1813"
+                          data-permalink="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/city-landscape-slider/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider.jpg"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="city-landscape-slider"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-300x93.jpg"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/01/city-landscape-slider-1024x320.jpg"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-pingbacks-an-trackbacks/"
+                        >How to Use WordPress Pingbacks And Trackbacks</a
+                      >
+                      <span class="date">April 7, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-comments/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-150x150.png 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1769"
+                          data-permalink="https://demo.colorlib.com/sparkling/hello-world/slider-wallpaper-colorlib/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib.png"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-wallpaper-colorlib"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-300x93.png"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-1024x320.png"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/template-comments/"
+                        >This is how comments will be displayed on Sparkling WP
+                        Theme</a
+                      >
+                      <span class="date">January 3, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/hello-world/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-60x60.png    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-150x150.png 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1769"
+                          data-permalink="https://demo.colorlib.com/sparkling/hello-world/slider-wallpaper-colorlib/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib.png"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-wallpaper-colorlib"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-300x93.png"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/02/slider-wallpaper-colorlib-1024x320.png"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a href="https://demo.colorlib.com/sparkling/hello-world/"
+                        >We Created This Awesome Free WordPress Theme To Set New
+                        Industry Standard</a
+                      >
+                      <span class="date">April 6, 2015</span>
+                    </div>
+                  </div>
+
+                  <div class="post">
+                    <div class="post-image gallery">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                      >
+                        <img
+                          width="60"
+                          height="60"
+                          src="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-60x60.jpg"
+                          class="attachment-tab-small size-tab-small wp-post-image"
+                          alt=""
+                          loading="lazy"
+                          srcset="
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-60x60.jpg    60w,
+                            https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-150x150.jpg 150w
+                          "
+                          sizes="(max-width: 60px) 100vw, 60px"
+                          data-attachment-id="1810"
+                          data-permalink="https://demo.colorlib.com/sparkling/post-format-gallery/slider-image-blurry/"
+                          data-orig-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry.jpg"
+                          data-orig-size="1920,600"
+                          data-comments-opened="1"
+                          data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":""}'
+                          data-image-title="slider-image-blurry"
+                          data-image-description=""
+                          data-medium-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-300x93.jpg"
+                          data-large-file="https://demo.colorlib.com/sparkling/wp-content/uploads/sites/52/2014/03/slider-image-blurry-1024x320.jpg"
+                        />
+                      </a>
+                    </div>
+
+                    <div class="post-content">
+                      <a
+                        href="https://demo.colorlib.com/sparkling/post-format-gallery/"
+                        >Post Format: WordPress Tiled Gallery</a
+                      >
+                      <span class="date">March 28, 2015</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 footer-widget" role="complementary">
+              <div id="sparkling-cats-3" class="widget sparkling-cats">
+                <!-- <h3 class="widgettitle">Categories</h3> -->
+                <div class="cats-widget">
+                  <!-- <ul>
+                      <li class="cat-item cat-item-38">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/post-formats/"
+                          title="Posts in this category test post formats."
+                          >Post Formats</a
+                        >
+                        <span>16</span>
+                      </li>
+                      <li class="cat-item cat-item-1">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/uncategorized/"
+                          >Uncategorized</a
+                        >
+                        <span>10</span>
+                      </li>
+                      <li class="cat-item cat-item-49">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/template-2/"
+                          title="Posts with template-related tests"
+                          >Template</a
+                        >
+                        <span>10</span>
+                      </li>
+                      <li class="cat-item cat-item-19">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/edge-case-2/"
+                          title="Posts that have edge-case related tests"
+                          >Edge Case</a
+                        >
+                        <span>6</span>
+                      </li>
+                      <li class="cat-item cat-item-29">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/markup/"
+                          title="Posts in this category test markup tags and styles."
+                          >Markup</a
+                        >
+                        <span>6</span>
+                      </li>
+                      <li class="cat-item cat-item-193">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/slider/"
+                          >Slider</a
+                        >
+                        <span>3</span>
+                      </li>
+                      <li class="cat-item cat-item-30">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/media-2/"
+                          title="Posts that have media-related tests"
+                          >Media</a
+                        >
+                        <span>2</span>
+                      </li>
+                      <li class="cat-item cat-item-190">
+                        <a
+                          href="https://demo.colorlib.com/sparkling/category/featured/"
+                          >Featured</a
+                        >
+                        <span>2</span>
+                      </li>
+                    </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 footer-widget" role="complementary">
+              <div id="text-2" class="widget widget_text">
+                <div class="textwidget">
+                  <p>
+                    <img
+                      src="../assets/logo/logo_200x200.png"
+                      style="background-color: white"
+                      width="200"
+                      height="auto"
+                      alt="Daily ML Blog"
+                      class="alignnone"
+                    />
+                  </p>
+                  <p>
+                    This is my first time running a technical blog. Please
+                    excuse any technical mistakes I make. All corrections and
+                    suggestion are welcome
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="colophon" class="site-footer" role="contentinfo">
+        <div class="site-info container">
+          <div class="row">
+            <nav id="menu-social" class="social-icons">
+              <ul id="menu-social-items" class="social-menu">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2036"
+                >
+                  <a href="https://twitter.com/colorlib"
+                    ><i class="social_icon"><span>Twitter</span></i></a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2037"
+                >
+                  <a href="https://www.facebook.com/colorlib"
+                    ><i class="social_icon"
+                      ><span>Follow us on Facebook</span></i
+                    ></a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2038"
+                >
+                  <a
+                    href="https://www.youtube.com/channel/UCOaovjLNXdIch2vLFsw_uew"
+                    ><i class="social_icon"
+                      ><span>Follow us on Youtube</span></i
+                    ></a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2039"
+                >
+                  <a href="https://plus.google.com/+Colorlib"
+                    ><i class="social_icon"
+                      ><span>Follow us on Google+</span></i
+                    ></a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2040"
+                >
+                  <a href="https://github.com/puikinsh/"
+                    ><i class="social_icon"
+                      ><span>Follow us on Github</span></i
+                    ></a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- <nav role="navigation" class="col-md-6">
+                <ul id="menu-flat-footer" class="nav footer-nav clearfix">
+                  <li
+                    id="menu-item-1799"
+                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1799"
+                  >
+                    <a
+                      href="https://demo.colorlib.com/sparkling/"
+                      aria-current="page"
+                      >Home</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1795"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1795"
+                  >
+                    <a href="https://demo.colorlib.com/sparkling/full-width/"
+                      >Full-Width Page</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1796"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1796"
+                  >
+                    <a href="https://demo.colorlib.com/sparkling/sample-page/"
+                      >Sample Page</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1798"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798"
+                  >
+                    <a href="https://demo.colorlib.com/sparkling/languages/"
+                      >Languages</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-1797"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1797"
+                  >
+                    <a href="https://demo.colorlib.com/sparkling/contact-us/"
+                      >Contact us</a
+                    >
+                  </li>
+                </ul>
+              </nav> -->
+            <div class="copyright col-md-6">
+              <a href="https://demo.colorlib.com/sparkling/" title="Sparkling"
+                >Sparkling</a
+              >
+              All rights reserved. Theme by
+              <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+              Powered by
+              <a href="https://wordpress.org/" target="_blank">WordPress</a>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-to-top" style="display: block">
+          <i class="fa fa-angle-up"></i>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      if ($(window).width() >= 767) {
+        $(".navbar-nav > li.menu-item > a").click(function () {
+          if ($(this).attr("target") !== "_blank") {
+            window.location = $(this).attr("href");
+          }
+        });
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    //<![CDATA[
+    var infiniteScroll = JSON.parse(
+      decodeURIComponent(
+        "%7B%22settings%22%3A%7B%22id%22%3A%22main%22%2C%22ajaxurl%22%3A%22https%3A%5C%2F%5C%2Fdemo.colorlib.com%5C%2Fsparkling%5C%2F%3Finfinity%3Dscrolling%22%2C%22type%22%3A%22click%22%2C%22wrapper%22%3Atrue%2C%22wrapper_class%22%3A%22infinite-wrap%22%2C%22footer%22%3A%22page%22%2C%22click_handle%22%3A%221%22%2C%22text%22%3A%22Older%20posts%22%2C%22totop%22%3A%22Scroll%20back%20to%20top%22%2C%22currentday%22%3A%2207.01.15%22%2C%22order%22%3A%22DESC%22%2C%22scripts%22%3A%5B%5D%2C%22styles%22%3A%5B%5D%2C%22google_analytics%22%3Atrue%2C%22offset%22%3A1%2C%22history%22%3A%7B%22host%22%3A%22demo.colorlib.com%5C%2Fsparkling%22%2C%22path%22%3A%22%5C%2Fpage%5C%2F%25d%5C%2F%22%2C%22use_trailing_slashes%22%3Atrue%2C%22parameters%22%3A%22%22%7D%2C%22query_args%22%3A%7B%22error%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A0%2C%22post_parent%22%3A%22%22%2C%22subpost%22%3A%22%22%2C%22subpost_id%22%3A%22%22%2C%22attachment%22%3A%22%22%2C%22attachment_id%22%3A0%2C%22name%22%3A%22%22%2C%22pagename%22%3A%22%22%2C%22page_id%22%3A0%2C%22second%22%3A%22%22%2C%22minute%22%3A%22%22%2C%22hour%22%3A%22%22%2C%22day%22%3A0%2C%22monthnum%22%3A0%2C%22year%22%3A0%2C%22w%22%3A0%2C%22category_name%22%3A%22%22%2C%22tag%22%3A%22%22%2C%22cat%22%3A%22%22%2C%22tag_id%22%3A%22%22%2C%22author%22%3A%22%22%2C%22author_name%22%3A%22%22%2C%22feed%22%3A%22%22%2C%22tb%22%3A%22%22%2C%22paged%22%3A0%2C%22meta_key%22%3A%22%22%2C%22meta_value%22%3A%22%22%2C%22preview%22%3A%22%22%2C%22s%22%3A%22%22%2C%22sentence%22%3A%22%22%2C%22title%22%3A%22%22%2C%22fields%22%3A%22%22%2C%22menu_order%22%3A%22%22%2C%22embed%22%3A%22%22%2C%22category__in%22%3A%5B%5D%2C%22category__not_in%22%3A%5B%5D%2C%22category__and%22%3A%5B%5D%2C%22post__in%22%3A%5B%5D%2C%22post__not_in%22%3A%5B%5D%2C%22post_name__in%22%3A%5B%5D%2C%22tag__in%22%3A%5B%5D%2C%22tag__not_in%22%3A%5B%5D%2C%22tag__and%22%3A%5B%5D%2C%22tag_slug__in%22%3A%5B%5D%2C%22tag_slug__and%22%3A%5B%5D%2C%22post_parent__in%22%3A%5B%5D%2C%22post_parent__not_in%22%3A%5B%5D%2C%22author__in%22%3A%5B%5D%2C%22author__not_in%22%3A%5B%5D%2C%22posts_per_page%22%3A5%2C%22ignore_sticky_posts%22%3Afalse%2C%22suppress_filters%22%3Afalse%2C%22cache_results%22%3Atrue%2C%22update_post_term_cache%22%3Atrue%2C%22lazy_load_term_meta%22%3Atrue%2C%22update_post_meta_cache%22%3Atrue%2C%22post_type%22%3A%22%22%2C%22nopaging%22%3Afalse%2C%22comments_per_page%22%3A%2250%22%2C%22no_found_rows%22%3Afalse%2C%22order%22%3A%22DESC%22%7D%2C%22query_before%22%3A%222021-01-01%2023%3A04%3A03%22%2C%22last_post_date%22%3A%222015-03-15%2015%3A36%3A32%22%2C%22body_class%22%3A%22infinite-scroll%22%2C%22loading_text%22%3A%22Loading%20new%20page%22%2C%22stats%22%3A%22blog%3D66302208%26host%3Ddemo.colorlib.com%26v%3Dext%26j%3D1%3A9.2.1%26x_pagetype%3Dinfinite-click-jetpack%22%7D%7D"
+      )
+    );
+    //]]>
+  </script>
+
+  <script type="text/javascript">
+    var sbiajaxurl =
+      "https://demo.colorlib.com/sparkling/wp-admin/admin-ajax.php";
+  </script>
+  <script type="text/javascript">
+    /* MonsterInsights Scroll Tracking */
+    if (typeof jQuery !== "undefined") {
+      jQuery(document).ready(function () {
+        function monsterinsights_scroll_tracking_load() {
+          if (
+            typeof __gaTracker !== "undefined" &&
+            __gaTracker &&
+            __gaTracker.hasOwnProperty("loaded") &&
+            __gaTracker.loaded == true
+          ) {
+            (function (factory) {
+              factory(jQuery);
+            })(function ($) {
+              /* Scroll Depth */
+              "use strict";
+              var defaults = {
+                percentage: true,
+              };
+
+              var $window = $(window),
+                cache = [],
+                scrollEventBound = false,
+                lastPixelDepth = 0;
+
+              /*
+               * Plugin
+               */
+
+              $.scrollDepth = function (options) {
+                var startTime = +new Date();
+
+                options = $.extend({}, defaults, options);
+
+                /*
+                 * Functions
+                 */
+
+                function sendEvent(action, label, scrollDistance, timing) {
+                  var fieldsArray = {
+                    hitType: "event",
+                    eventCategory: "Scroll Depth",
+                    eventAction: action,
+                    eventLabel: label,
+                    eventValue: 1,
+                    nonInteraction: 1,
+                  };
+
+                  if (
+                    "undefined" === typeof MonsterInsightsObject ||
+                    "undefined" === typeof MonsterInsightsObject.sendEvent
+                  ) {
+                    return;
+                  }
+
+                  MonsterInsightsObject.sendEvent(fieldsArray);
+                  if (arguments.length > 3) {
+                    fieldsArray = {
+                      hitType: "timing",
+                      timingCategory: "Scroll Depth",
+                      timingVar: action,
+                      timingValue: timing,
+                      timingLabel: label,
+                      nonInteraction: 1,
+                    };
+                    MonsterInsightsObject.sendEvent(fieldsArray);
+                  }
+                }
+
+                function calculateMarks(docHeight) {
+                  return {
+                    "25%": parseInt(docHeight * 0.25, 10),
+                    "50%": parseInt(docHeight * 0.5, 10),
+                    "75%": parseInt(docHeight * 0.75, 10),
+                    /* Cushion to trigger 100% event in iOS */
+                    "100%": docHeight - 5,
+                  };
+                }
+
+                function checkMarks(marks, scrollDistance, timing) {
+                  /* Check each active mark */
+                  $.each(marks, function (key, val) {
+                    if ($.inArray(key, cache) === -1 && scrollDistance >= val) {
+                      sendEvent("Percentage", key, scrollDistance, timing);
+                      cache.push(key);
+                    }
+                  });
+                }
+
+                function rounded(scrollDistance) {
+                  /* Returns String */
+                  return (Math.floor(scrollDistance / 250) * 250).toString();
+                }
+
+                function init() {
+                  bindScrollDepth();
+                }
+
+                /*
+                 * Public Methods
+                 */
+
+                /* Reset Scroll Depth with the originally initialized options */
+                $.scrollDepth.reset = function () {
+                  cache = [];
+                  lastPixelDepth = 0;
+                  $window.off("scroll.scrollDepth");
+                  bindScrollDepth();
+                };
+
+                /* Add DOM elements to be tracked */
+                $.scrollDepth.addElements = function (elems) {
+                  if (typeof elems == "undefined" || !$.isArray(elems)) {
+                    return;
+                  }
+
+                  $.merge(options.elements, elems);
+
+                  /* If scroll event has been unbound from window, rebind */
+                  if (!scrollEventBound) {
+                    bindScrollDepth();
+                  }
+                };
+
+                /* Remove DOM elements currently tracked */
+                $.scrollDepth.removeElements = function (elems) {
+                  if (typeof elems == "undefined" || !$.isArray(elems)) {
+                    return;
+                  }
+
+                  $.each(elems, function (index, elem) {
+                    var inElementsArray = $.inArray(elem, options.elements);
+                    var inCacheArray = $.inArray(elem, cache);
+
+                    if (inElementsArray != -1) {
+                      options.elements.splice(inElementsArray, 1);
+                    }
+
+                    if (inCacheArray != -1) {
+                      cache.splice(inCacheArray, 1);
+                    }
+                  });
+                };
+
+                /*
+                 * Throttle function borrowed from:
+                 * Underscore.js 1.5.2
+                 * http://underscorejs.org
+                 * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+                 * Underscore may be freely distributed under the MIT license.
+                 */
+
+                function throttle(func, wait) {
+                  var context, args, result;
+                  var timeout = null;
+                  var previous = 0;
+                  var later = function () {
+                    previous = new Date();
+                    timeout = null;
+                    result = func.apply(context, args);
+                  };
+                  return function () {
+                    var now = new Date();
+                    if (!previous) previous = now;
+                    var remaining = wait - (now - previous);
+                    context = this;
+                    args = arguments;
+                    if (remaining <= 0) {
+                      clearTimeout(timeout);
+                      timeout = null;
+                      previous = now;
+                      result = func.apply(context, args);
+                    } else if (!timeout) {
+                      timeout = setTimeout(later, remaining);
+                    }
+                    return result;
+                  };
+                }
+
+                /*
+                 * Scroll Event
+                 */
+
+                function bindScrollDepth() {
+                  scrollEventBound = true;
+
+                  $window.on(
+                    "scroll.scrollDepth",
+                    throttle(function () {
+                      /*
+                       * We calculate document and window height on each scroll event to
+                       * account for dynamic DOM changes.
+                       */
+
+                      var docHeight = $(document).height(),
+                        winHeight = window.innerHeight
+                          ? window.innerHeight
+                          : $window.height(),
+                        scrollDistance = $window.scrollTop() + winHeight,
+                        /* Recalculate percentage marks */
+                        marks = calculateMarks(docHeight),
+                        /* Timing */
+                        timing = +new Date() - startTime;
+
+                      checkMarks(marks, scrollDistance, timing);
+                    }, 500)
+                  );
+                }
+
+                init();
+              };
+
+              /* UMD export */
+              return $.scrollDepth;
+            });
+
+            jQuery.scrollDepth();
+          } else {
+            setTimeout(monsterinsights_scroll_tracking_load, 200);
+          }
+        }
+        monsterinsights_scroll_tracking_load();
+      });
+    }
+    /* End MonsterInsights Scroll Tracking */
+  </script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/jetpack/_inc/build/infinite-scroll/infinity.min.js?ver=9.2.1-is5.0.0"
+    id="the-neverending-homepage-js"
+  ></script>
+  <script type="text/javascript" id="contact-form-7-js-extra">
+    /* <![CDATA[ */
+    var wpcf7 = {
+      apiSettings: {
+        root:
+          "https:\/\/demo.colorlib.com\/sparkling\/wp-json\/contact-form-7\/v1",
+        namespace: "contact-form-7\/v1",
+      },
+    };
+    /* ]]> */
+  </script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.2"
+    id="contact-form-7-js"
+  ></script>
+  <script type="text/javascript" id="jetpack-carousel-js-extra">
+    /* <![CDATA[ */
+    var jetpackCarouselStrings = {
+      widths: [370, 700, 1000, 1200, 1400, 2000],
+      is_logged_in: "",
+      lang: "en",
+      ajaxurl:
+        "https:\/\/demo.colorlib.com\/sparkling\/wp-admin\/admin-ajax.php",
+      nonce: "825e0dd7a1",
+      display_exif: "1",
+      display_comments: "1",
+      display_geo: "1",
+      single_image_gallery: "1",
+      single_image_gallery_media_file: "",
+      background_color: "black",
+      comment: "Comment",
+      post_comment: "Post Comment",
+      write_comment: "Write a Comment...",
+      loading_comments: "Loading Comments...",
+      download_original:
+        'View full size <span class="photo-size">{0}<span class="photo-size-times">\u00d7<\/span>{1}<\/span>',
+      no_comment_text: "Please be sure to submit some text with your comment.",
+      no_comment_email: "Please provide an email address to comment.",
+      no_comment_author: "Please provide your name to comment.",
+      comment_post_error:
+        "Sorry, but there was an error posting your comment. Please try again later.",
+      comment_approved: "Your comment was approved.",
+      comment_unapproved: "Your comment is in moderation.",
+      camera: "Camera",
+      aperture: "Aperture",
+      shutter_speed: "Shutter Speed",
+      focal_length: "Focal Length",
+      copyright: "Copyright",
+      comment_registration: "0",
+      require_name_email: "1",
+      login_url:
+        "https:\/\/demo.colorlib.com\/sparkling\/wp-login.php?redirect_to=https%3A%2F%2Fdemo.colorlib.com%2Fsparkling%2Ftemplate-sticky%2F",
+      blog_id: "52",
+      meta_data: [
+        "camera",
+        "aperture",
+        "shutter_speed",
+        "focal_length",
+        "copyright",
+      ],
+      local_comments_commenting_as:
+        '<fieldset><label for="email">Email (Required)<\/label> <input type="text" name="email" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-email-field" \/><\/fieldset><fieldset><label for="author">Name (Required)<\/label> <input type="text" name="author" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-author-field" \/><\/fieldset><fieldset><label for="url">Website<\/label> <input type="text" name="url" class="jp-carousel-comment-form-field jp-carousel-comment-form-text-field" id="jp-carousel-comment-form-url-field" \/><\/fieldset>',
+    };
+    /* ]]> */
+  </script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/jetpack/_inc/build/carousel/jetpack-carousel.min.js?ver=9.2.1"
+    id="jetpack-carousel-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/js/vendor/flexslider.min.js?ver=20140222"
+    id="flexslider-js-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/js/flexslider-custom.js?ver=20140716"
+    id="flexslider-customization-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-content/themes/sparkling/assets/js/skip-link-focus-fix.min.js?ver=20140222"
+    id="sparkling-skip-link-focus-fix-js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://demo.colorlib.com/sparkling/wp-includes/js/wp-embed.min.js?ver=5.6"
+    id="wp-embed-js"
+  ></script>
+  <script>
+    window.GA_ID = "G-SEKJ4E9T4H";
+  </script>
+  <script
+    src="https://demo.colorlib.com/sparkling/wp-content/plugins/flying-analytics/js/gtagv4.js"
+    defer=""
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-SEKJ4E9T4H");
+  </script>
+  <script type="text/javascript">
+    (function () {
+      var extend = function (out) {
+        out = out || {};
+
+        for (var i = 1; i < arguments.length; i++) {
+          if (!arguments[i]) continue;
+
+          for (var key in arguments[i]) {
+            if (arguments[i].hasOwnProperty(key)) out[key] = arguments[i][key];
+          }
+        }
+
+        return out;
+      };
+      extend(window.infiniteScroll.settings.scripts, [
+        "monsterinsights-frontend-script",
+        "jquery-core",
+        "jquery-migrate",
+        "jquery",
+        "sellfy-embed",
+        "tiled-gallery",
+        "sparkling-bootstrapjs",
+        "sparkling-functions",
+        "the-neverending-homepage",
+        "contact-form-7",
+        "jetpack-carousel",
+        "flexslider-js",
+        "flexslider-customization",
+        "sparkling-skip-link-focus-fix",
+        "wp-embed",
+      ]);
+      extend(window.infiniteScroll.settings.styles, [
+        "the-neverending-homepage",
+        "sb_instagram_styles",
+        "wp-block-library",
+        "contact-form-7",
+        "prisna-social-counter",
+        "wp-pagenavi",
+        "jetpack-carousel",
+        "tiled-gallery",
+        "sparkling-bootstrap",
+        "sparkling-icons",
+        "sparkling-fonts",
+        "flexslider-css",
+        "sparkling-style",
+        "jetpack_css",
+      ]);
+    })();
+  </script>
+  <span id="infinite-aria" aria-live="assertive"></span>
+  <script
+    type="text/javascript"
+    src="https://stats.wp.com/e-202153.js"
+    async="async"
+    defer="defer"
+  ></script>
+  <script type="text/javascript">
+    _stq = window._stq || [];
+    _stq.push([
+      "view",
+      {
+        v: "ext",
+        j: "1:9.2.1",
+        blog: "66302208",
+        post: "0",
+        tz: "0",
+        srv: "demo.colorlib.com",
+      },
+    ]);
+    _stq.push(["clickTrackerInit", "66302208", "0"]);
+  </script>
+
+  <img
+    src="https://pixel.wp.com/g.gif?v=ext&amp;j=1%3A9.2.1&amp;blog=66302208&amp;post=0&amp;tz=0&amp;srv=demo.colorlib.com&amp;host=demo.colorlib.com&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fcp=435&amp;rand=0.7745898901779411"
+    alt=":)"
+    width="6"
+    height="5"
+    id="wpstats"
+  />
+  <div>
+    <div
+      id="twoseven-ext-tab-media-modal"
+      class="twoseven-ext-tab-media-modal"
+      style="display: none"
+    >
+      <!-- Modal content -->
+      <div class="twoseven-ext-tab-media-modal-content">
+        <div class="iframe-container" style="height: 100%; width: 100%">
+          <span class="close">×</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ins
+    class="adsbygoogle adsbygoogle-noablate"
+    data-adsbygoogle-status="done"
+    style="display: none !important"
+    ><ins
+      id="aswift_1_expand"
+      style="
+        display: inline-table;
+        border: none;
+        height: 0px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        visibility: visible;
+        width: 0px;
+        background-color: transparent;
+      "
+      tabindex="0"
+      title="Advertisement"
+      aria-label="Advertisement"
+      ><ins
+        id="aswift_1_anchor"
+        style="
+          display: block;
+          border: none;
+          height: 0px;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          visibility: visible;
+          width: 0px;
+          background-color: transparent;
+        "
+        ><iframe
+          id="aswift_1"
+          name="aswift_1"
+          style="
+            left: 0;
+            position: absolute;
+            top: 0;
+            border: 0;
+            width: undefinedpx;
+            height: undefinedpx;
+          "
+          sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+          frameborder="0"
+          src="https://googleads.g.doubleclick.net/pagead/ads?guci=2.2.0.0.2.2.0.0&amp;client=ca-pub-7397764995846596&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1609545529&amp;plat=1%3A32776%2C2%3A16809992%2C9%3A32776%2C10%3A32%2C11%3A32%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C40%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fdemo.colorlib.com%2Fsparkling%2F&amp;ea=0&amp;flash=0&amp;pra=7&amp;wgl=1&amp;tt_state=W3siaXNzdWVyT3JpZ2luIjoiaHR0cHM6Ly9hZHNlcnZpY2UuZ29vZ2xlLmNvbSIsInN0YXRlIjowfSx7Imlzc3Vlck9yaWdpbiI6Imh0dHBzOi8vYXR0ZXN0YXRpb24uYW5kcm9pZC5jb20iLCJzdGF0ZSI6MH1d&amp;dt=1609545529282&amp;bpp=3&amp;bdt=617&amp;idt=114&amp;shv=r20201203&amp;cbv=r20190131&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D7bdd1886146070bd-227b672d66c50011%3AT%3D1609545480%3ART%3D1609545480%3AS%3DALNI_Mbl-RXQSll_mYV9cSQshCd_8Z_qVQ&amp;prev_fmts=298x600&amp;nras=1&amp;correlator=6846971468836&amp;frm=20&amp;pv=1&amp;ga_vid=1379415805.1609419399&amp;ga_sid=1609545529&amp;ga_hid=154040506&amp;ga_fc=0&amp;ga_cid=1028402361.1609545477&amp;u_tz=330&amp;u_his=3&amp;u_java=0&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1056&amp;u_aw=1855&amp;u_cd=24&amp;u_nplug=3&amp;u_nmime=4&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1472&amp;bih=748&amp;scr_x=0&amp;scr_y=944&amp;eid=21066973&amp;oid=3&amp;pvsid=2703558372814721&amp;pem=836&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;rx=0&amp;eae=2&amp;fc=896&amp;brdim=65%2C24%2C65%2C24%2C1855%2C24%2C1855%2C1056%2C1484%2C748&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=8192&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=122"
+          marginwidth="0"
+          marginheight="0"
+          vspace="0"
+          hspace="0"
+          allowtransparency="true"
+          scrolling="no"
+          allowfullscreen="true"
+          data-google-container-id="a!1"
+          data-load-complete="true"
+        ></iframe></ins></ins></ins
+  ><iframe
+    id="google_osd_static_frame_4765057692286"
+    name="google_osd_static_frame"
+    style="display: none; width: 0px; height: 0px"
+  ></iframe>
+</body>
+<iframe
+  id="google_esf"
+  name="google_esf"
+  src="https://googleads.g.doubleclick.net/pagead/html/r20201203/r20190131/zrt_lookup.html#"
+  data-ad-client="ca-pub-7397764995846596"
+  style="display: none"
+></iframe>
