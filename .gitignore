@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 
+maintainer-scripts/map.json
 # Ignore content files (ctxt files for blog content)
 content/
 # Ignore html template files (ctxt files for blog content)
