@@ -97,11 +97,13 @@ for k in feeds:
     posts = [v for k, v in posts]
     context = {}
     context['PREVIEWS'] = posts[0]['PREVIEWS']
+    context['CATEGORY'] = k.title()
 
-    temp
+    temp = ""
     for post in posts:
         temp += render(post_excerpt, post) + '\n'
     context['EXCERPTS'] = temp
+
     open(fname, "w").write(render(feed, context))
     print(
         color(f"html file generated at {fname} ...", fg='blue', style='bold'))
