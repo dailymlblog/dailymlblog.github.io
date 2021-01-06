@@ -125,8 +125,10 @@ all_posts = sorted(all_posts, key=lambda x: x[0], reverse=True)
 temp = ""
 context = all_posts[0][1]
 for stamp, post in all_posts:
+    post['POST_URL'] = f"{post['CATEGORY'].replace(' ','-')}/" + \
+        post['POST_URL']
+    # print(post['POST_URL'])
     temp += render(post_excerpt, post) + '\n'
 context['EXCERPTS'] = temp
 fname = os.path.realpath("../index.html")
-print(fname)
 open(fname, "w").write(render(index, context))
