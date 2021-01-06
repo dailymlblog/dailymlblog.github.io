@@ -12,6 +12,7 @@ content/
 # Ignore html template files (ctxt files for blog content)
 templates/
 # miscalenous test files
+DELETE_ME.html
 paper-review/first_post.html
 paper-review/DELETE_ME.html
 
